@@ -12,6 +12,7 @@ DeBacker and Evans (2018) have created a series of textbook chapters complete wi
 
 This will be an intensive two weeks. We are providing your researchers 7 areas of tutorials that they will benefit from reading before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
 
+
 ## Daily Course Schedule ##
 
 |  Date  | Day | Topic | Notes | Code |
