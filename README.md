@@ -38,20 +38,6 @@ This will be an intensive two weeks. We are providing your researchers 7 areas o
 6. [Git and GitHub.com tutorial](https://github.com/OpenSourceMacro/BootCamp2018#7-git-and-github-tutorial)
 7. [References](https://github.com/OpenSourceMacro/BootCamp2018#12-references)
 
-6. [Using LaTeX](https://github.com/OpenSourceMacro/BootCamp2018#6-using-latex)
-
-
-10. [Other Books](https://github.com/OpenSourceMacro/BootCamp2018#10-other-books)
-11. [C++ tutorials](https://github.com/OpenSourceMacro/BootCamp2018#11-c-tutorials)
-
-
-1. Instructions for installing the Anaconda distribution of Python
-2. Text editor suggestions (Atom, Sublime Text 3, Vim)
-3. PEP8, docstring commenting, and module structure
-4. Git and GitHub tutorial
-5. Jupyter Notebooks
-6. Basic Python tutorials (data structures, logic, functions and modules, pandas, root finders and minimizers)
-
 
 ## 1. Instructions for installing the Anaconda distribution of Python
 
