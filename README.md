@@ -1,16 +1,16 @@
-# India, World Bank Fiscal Modeling and Overlapping Generations Model Training by Open Research Group
+  # Fiscal Modeling and Overlapping Generations Model Training For the Department of Revenue
 
-This public repository contains the training materials, tutorials, and code for the two week training delivered to the Government of India Department of Revenue in conjuction with the World Bank in New Delhi, India, April 30 to May 11, 2018 by [Richard Evans](https://sites.google.com/site/rickecon/) and [Jason DeBacker](http://jasondebacker.com/) of [Open Research Group, Inc.](http://openrg.com/) (OpenRG).
+This public repository contains the training materials, tutorials, and code for the two week training delivered to the Government of India Department of Revenue in conjuction with the World Bank in New Delhi, India, April 30 to May 11, 2018 by [Richard Evans](https://sites.google.com/site/rickecon/) and [Jason DeBacker](http://jasondebacker.com/).
 
-We are planning on the following schedule each of the 10 workdays during that time. Let us know if we need to change this schedule in any way.
+We will roughly follow schedule the schedule below for each of the 10 workdays during the training:
 
 * 9am to noon: Lecture, theory, computational instruction
 * noon to 1pm: Lunch
 * 1pm to 4pm: Guided computational practice, implementation, problem sets
 
-DeBacker and Evans (2018) have created a series of textbook chapters complete with theoretical exposition, computational description and tips, and problem sets. These chapters and their instruction are meant to progressively build upon each other. In the end, you will be building a computational implementation of an OG model for fiscal policy that is thousands of lines of code. We will train your research group to understand each code section and to write the code in a way that is accessible, modular, scalable, and amenable to collaboration among a large group of researchers.
+DeBacker and Evans (2018) have created a series of textbook chapters complete with theoretical exposition, computational description and tips, and problem sets. These chapters and their instruction are meant to progressively build upon each other. In the end, you will be building a computational implementation of an Overlapping Generations (OG) model for fiscal policy that is thousands of lines of code. We will train your research group to understand each section of code and to write the code in a way that is accessible, modular, scalable, and amenable to collaboration among a large group of researchers.
 
-This will be an intensive two weeks. We are providing your researchers 7 areas of tutorials that they will benefit from reading before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
+This will be an intensive two weeks. We are providing your researchers 6 areas of tutorials that they will benefit from reading before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
 
 
 ## Daily Course Schedule ##
@@ -24,8 +24,8 @@ This will be an intensive two weeks. We are providing your researchers 7 areas o
 | May  4 |  F | Heterogeneous ability, wealth inequality | Ch.  5 |  |
 | May  7 |  M | Demographic dynamics                     | Ch.  7 |  |
 | May  8 |  T | Productivity growth and stationarization | Ch.  7 |  |
-| May  9 | Th | Household and corporate taxation         | Ch. 11 |  |
-| May 10 |  W | Unbalanced government budget constraint  | Ch. 12 |  |
+| May  9 | W | Household and corporate taxation         | Ch. 11 |  |
+| May 10 |  Th | Unbalanced government budget constraint  | Ch. 12 |  |
 | May 11 |  F | Small Open Economy                       | Ch. 17 |  |
 
 
@@ -62,7 +62,7 @@ Atom and Vim are completely free. A trial version of Sublime Text 3 is available
 
 [Atom](https://atom.io) is an open source text editor developed by people at GitHub.com. This editor has all the features of Sublime Text 3, but it also allows users full customizability. Further, it has been a while now that the users of Atom have surpassed the critical mass necessary to keep the editor progressing with the most cutting edge additions.
 
-There are several packages you'll want to install with Atom.  Once Atom is installed, you can add packages by navigating Atom->Preferences->Install and then typing in the name of the package you would like to install.  
+There are several packages you'll want to install with Atom.  Once Atom is installed, you can add packages by navigating Atom->Preferences->Install and then typing in the name of the package you would like to install.
 
 For work with Python, we recommend the following packages be installed:
 
@@ -77,26 +77,10 @@ For development with GitHub we recommend:
 
 * merge-conflict
 
-If using LaTex in this editor, the following packages are helpful:
-
-* atom-latex
-* latextools
-* autocomplete-bibtex
-* dictionary
-* latexer
-* pdf-view
-
-In addition, you will also want to download the [Skim](http://skim-app.sourceforge.net) PDF viewer to aid in displaying PDF files compiled from TeX with Atom.
-
 
 ### 2.2. Sublime Text 3
 
 [Sublime Text 3](https://www.sublimetext.com) is the most widely used and versatile private software text editor. It has tremendous flexibility, as well as the polish of a piece of professional software. Sublime Text 3 will cost $80 for a license, although you can use a trial version indefinitely without charge while only having to suffer through frequent reminders to buy the full version.
-
-
-### 2.3. Vim
-
-[Vim](http://www.vim.org) is free and very powerful. Vim is the hard-core developer's text editor of choice. The learning curve for using vim is a little steeper than that of Atom and Sublime Text 3, but it also has some advantages for efficient programming. Vim has navigation that does not use a mouse or trackpad. Eventually, your fingers never leave your keyboard. Further, most terminals have Vim built in so you can more easily use Vim to edit scripts and modules on the fly with your terminal session.  
 
 
 ## 3. PEP 8, docstring commenting, and module structure
