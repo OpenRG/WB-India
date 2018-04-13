@@ -30,6 +30,17 @@ This will be an intensive two weeks. We are providing your researchers 7 areas o
 
 # Pre-course Tutorial Areas
 
+1. [Instructions for installing the Anaconda distribution of Python](https://github.com/OpenRG/WB-India#1-instructions-for-installing-the-anaconda-distribution-of-python)
+4. [Text editor suggestions](https://github.com/OpenRG/WB-India#2-text-editor-suggestions)
+5. [PEP 8, docstring commenting, and module structure](https://github.com/OpenSourceMacro/BootCamp2018#5-pep-8-docstring-commenting-and-module-structure)
+6. [Using LaTeX](https://github.com/OpenSourceMacro/BootCamp2018#6-using-latex)
+7. [Git and GitHub.com tutorial](https://github.com/OpenSourceMacro/BootCamp2018#7-git-and-github-tutorial)
+8. [Jupyter notebooks](https://github.com/OpenSourceMacro/BootCamp2018#8-jupyter-notebooks)
+9. [Python tutorials](https://github.com/OpenSourceMacro/BootCamp2018#9-python-tutorials)
+10. [Other Books](https://github.com/OpenSourceMacro/BootCamp2018#10-other-books)
+11. [C++ tutorials](https://github.com/OpenSourceMacro/BootCamp2018#11-c-tutorials)
+12. [References](https://github.com/OpenSourceMacro/BootCamp2018#12-references)
+
 1. Instructions for installing the Anaconda distribution of Python
 2. Text editor suggestions (Atom, Sublime Text 3, Vim)
 3. PEP8, docstring commenting, and module structure
@@ -40,9 +51,9 @@ This will be an intensive two weeks. We are providing your researchers 7 areas o
 
 ## 1. Instructions for installing the Anaconda distribution of Python
 
-We will be using the [Python](https://www.python.org/) programming language and many of its powerful libraries for writing the code that will run the overlapping generations models in this training. Using an open source language, such as Python, has the advantage of being free and accessible for anyone who wishes to contribute to this project. Being open source also allows Python users to go into the source code of any function to modify it to suit one's needs.
+We will be using the [Python](https://www.python.org/) programming language and many of its powerful libraries for writing the code that will run most of the computational methods we will use during the Boot Camp. Using an open source language, such as Python, has the advantage of being free and accessible for anyone who wishes to learn these materials or contribute to these projects. Being open source also allows Python users to go into the source code of any function to modify it to suit one's needs.
 
-We recommend that each participant download the Anaconda distribution of Python provided by [Continuum Analytics](https://www.continuum.io/). We recommend the most recent stable version of Python, which is currently Python 3.6. This can be done from the [Anaconda download page](https://www.continuum.io/downloads) for Windows, Mac OSX, and Linux machines. The code we will be writing uses common Python libraries such as `NumPy`, `SciPy`, `pickle`, `os`, `matplotlib`, and `time`.
+We recommend that each participant download the Anaconda distribution of Python provided by [Anaconda, Inc.](https://www.anaconda.com/download/). We recommend the most recent stable version of Python, which is currently Python 3.6. This can be done from the [Anaconda download page](https://www.anaconda.com/download/) for Windows, Mac OSX, and Linux machines.
 
 
 ## 2. Text editor suggestions
@@ -53,7 +64,7 @@ In our recommended Python development workflow, you will write Python scripts an
 2. [Sublime Text 3](https://www.sublimetext.com)
 3. [Vim](http://www.vim.org)
 
-Atom and Vim are completely free. A trial version of Sublime Text 3 is available for free, but a licensed version is $70 (US dollars). In the following subsections, we give some of the details of each of the above three text editors.
+Atom and Vim are completely free. A trial version of Sublime Text 3 is available for free, but a licensed version is $80 (US dollars). In the following subsections, we give some of the details of each of the above three text editors.
 
 
 ### 2.1. Atom
@@ -79,7 +90,7 @@ If using LaTex in this editor, the following packages are helpful:
 
 * atom-latex
 * latextools
-* autocomplete-bitex
+* autocomplete-bibtex
 * dictionary
 * latexer
 * pdf-view
@@ -87,14 +98,14 @@ If using LaTex in this editor, the following packages are helpful:
 In addition, you will also want to download the [Skim](http://skim-app.sourceforge.net) PDF viewer to aid in displaying PDF files compiled from TeX with Atom.
 
 
-### 2.2 Sublime Text 3
+### 2.2. Sublime Text 3
 
-[Sublime Text 3](https://www.sublimetext.com) is the most widely used and versatile private software text editor. It has tremendous flexibility, as well as the polish of a piece of professional software. Sublime Text 3 will cost $70 for a license, although you can use a trial version indefinitely without charge while only having to suffer through frequent reminders to buy the full version.
+[Sublime Text 3](https://www.sublimetext.com) is the most widely used and versatile private software text editor. It has tremendous flexibility, as well as the polish of a piece of professional software. Sublime Text 3 will cost $80 for a license, although you can use a trial version indefinitely without charge while only having to suffer through frequent reminders to buy the full version.
 
 
-### 2.3 Vim
+### 2.3. Vim
 
-[Vim](http://www.vim.org) is free and very powerful. Vim is the hard core developer's text editor of choice. The learning curve for using vim is a little steeper than that of Atom and Sublime Text 3, but it also has some advantages for efficient programming. Vim has navigation that does not use a mouse or trackpad. Eventually, your fingers never leave your keyboard. Further, most terminals have Vim built in so you can use Vim to edit scripts and modules on the fly with your terminal session.  
+[Vim](http://www.vim.org) is free and very powerful. Vim is the hard-core developer's text editor of choice. The learning curve for using vim is a little steeper than that of Atom and Sublime Text 3, but it also has some advantages for efficient programming. Vim has navigation that does not use a mouse or trackpad. Eventually, your fingers never leave your keyboard. Further, most terminals have Vim built in so you can more easily use Vim to edit scripts and modules on the fly with your terminal session.  
 
 
 ## 3. PEP 8, docstring commenting, and module structure
@@ -116,13 +127,13 @@ Strong support for points (2) and (3) is Eagleson's Law.
 Because of the latter two characteristics, Python code has developed some conventions and best practices, some of which have been institutionalized in the [PEP 8--Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) ("PEP" stands for Python Enhancement Proposals). Key examples PEP 8 Python coding conventions are the following.
 
 * Indents should be 4 spaces (not tab)
-* Limit all lines to a maximum of 79 characters long blocks of text being limited to 72 characters
+* Limit all lines to a maximum of 79 characters long blocks of text being limited to 72 characters (Evans limits all his lines to 72 characters)
 * Use a space after a comma
 * Use a space before and after arithmetic operators
 
 In the text editors Atom, Sublime Text 3, and Vim, you can install Linter packages that highlight areas of your code that break PEP 8 rules and tell you what the violation is.
 
-There are fewer conventions in docstring structure, but we have developed some of our own that are outlined in the [PythonFuncs.ipynb](https://github.com/OpenRG/OG-JRC/blob/master/Tutorials/PythonFuncs.ipynb) Jupyter notebook. See especially Sections 3 and 4.
+There are fewer conventions in docstring structure, but we have developed some of our own that are outlined in the [PythonFuncs.ipynb](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Tutorials/PythonFuncs.ipynb) Jupyter notebook. See especially Sections 3 and 4 of the Jupyter notebook.
 
 
 ## 4. Git and GitHub tutorial
