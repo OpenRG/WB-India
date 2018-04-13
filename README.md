@@ -33,10 +33,10 @@ This will be an intensive two weeks. We are providing your researchers 7 areas o
 1. [Instructions for installing the Anaconda distribution of Python](https://github.com/OpenRG/WB-India#1-instructions-for-installing-the-anaconda-distribution-of-python)
 2. [Text editor suggestions](https://github.com/OpenRG/WB-India#2-text-editor-suggestions)
 3. [PEP 8, docstring commenting, and module structure](https://github.com/OpenRG/WB-India#3-pep-8-docstring-commenting-and-module-structure)
-4. [Jupyter notebooks](https://github.com/OpenSourceMacro/BootCamp2018#8-jupyter-notebooks)
-5. [Python tutorials](https://github.com/OpenSourceMacro/BootCamp2018#9-python-tutorials)
-6. [Git and GitHub.com tutorial](https://github.com/OpenSourceMacro/BootCamp2018#7-git-and-github-tutorial)
-7. [References](https://github.com/OpenSourceMacro/BootCamp2018#12-references)
+4. [Jupyter notebooks](https://github.com/OpenRG/WB-India#4-jupyter-notebooks)
+5. [Python tutorials](https://github.com/OpenRG/WB-India#5-python-tutorials)
+6. [Git and GitHub.com tutorial](https://github.com/OpenRG/WB-India#6-git-and-github-tutorial)
+7. [References](https://github.com/OpenRG/WB-India#7-references)
 
 
 ## 1. Instructions for installing the Anaconda distribution of Python
