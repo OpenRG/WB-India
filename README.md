@@ -1,6 +1,6 @@
 # India, World Bank Fiscal Modeling and Overlapping Generations Model Training by Open Research Group
 
-This public repository contains the training materials, tutorials, and code for the two week training delivered to the Government of India Department of Revenue in conjuction with the World Bank in New Delhi, India, April 20 to May 11, 2018 by [Richard Evans](https://sites.google.com/site/rickecon/) and [Jason DeBacker](http://jasondebacker.com/) of [Open Research Group, Inc.](http://openrg.com/) (OpenRG).
+This public repository contains the training materials, tutorials, and code for the two week training delivered to the Government of India Department of Revenue in conjuction with the World Bank in New Delhi, India, April 30 to May 11, 2018 by [Richard Evans](https://sites.google.com/site/rickecon/) and [Jason DeBacker](http://jasondebacker.com/) of [Open Research Group, Inc.](http://openrg.com/) (OpenRG).
 
 We are planning on the following schedule each of the 10 workdays during that time. Let us know if we need to change this schedule in any way.
 
@@ -16,16 +16,16 @@ This will be an intensive two weeks. We are providing your researchers 7 areas o
 
 |  Date  | Day | Topic | Notes | Code |
 |--------|-----|-------|----------|----------|
-| Apr 30 |  M | Exogenous labor: 3 period, S period |  |  |
-| May  1 |  T | Endogenous labor, S period          |  |  |
-| May  2 |  W | Heterogeneous Ability Types         |  |  |
-| May  3 | Th | Demographics                       |  |  |
-| May  4 |  F | Demographics                        |  |  |
-| May  7 |  M | Tax Functions                       |  |  |
-| May  8 |  T | Tax Functions                       |  |  |
-| May  9 | Th | Unbalanced Government Budget       |  |  |
-| May 10 |  W | Small Open Economy                  |  |  |
-| May 11 |  F | Multi-Sector Economy               |  |  |
+| Apr 30 |  M | Intro session, office hours, computational setup |  |  |
+| May  1 |  T | 3-period-lived OG model                  |  |  |
+| May  2 |  W | S-period-lived OG model                  |  |  |
+| May  3 | Th | Endogenous labor supply                  |  |  |
+| May  4 |  F | Heterogeneous ability, wealth inequality |  |  |
+| May  7 |  M | Demographic dynamics                     |  |  |
+| May  8 |  T | Productivity growth and stationarization |  |  |
+| May  9 | Th | Household and corporate taxation         |  |  |
+| May 10 |  W | Small Open Economy                       |  |  |
+| May 11 |  F | Unbalanced government budget constraint  |  |  |
 
 
 # Pre-course Tutorial Areas
