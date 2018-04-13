@@ -8,7 +8,7 @@ We are planning on the following schedule each of the 10 workdays during that ti
 * noon to 1pm: Lunch
 * 1pm to 4pm: Guided computational practice, implementation, problem sets
 
-We have created a series of textbook chapters complete with theoretical exposition, computational description and tips, and problem sets. These chapters and their instruction are meant to progressively build upon each other. In the end, you will be building a computational implementation of an OG model for fiscal policy that is thousands of lines of code. We will train your research group to understand each code section and to write the code in a way that is accessible, modular, scalable, and amenable to collaboration among a large group of researchers.
+DeBacker and Evans (2018) have created a series of textbook chapters complete with theoretical exposition, computational description and tips, and problem sets. These chapters and their instruction are meant to progressively build upon each other. In the end, you will be building a computational implementation of an OG model for fiscal policy that is thousands of lines of code. We will train your research group to understand each code section and to write the code in a way that is accessible, modular, scalable, and amenable to collaboration among a large group of researchers.
 
 This will be an intensive two weeks. We are providing your researchers 7 areas of tutorials that they will benefit from reading before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
 
@@ -16,16 +16,16 @@ This will be an intensive two weeks. We are providing your researchers 7 areas o
 
 |  Date  | Day | Topic | Notes | Code |
 |--------|-----|-------|----------|----------|
-| Apr 30 |  M | Intro session, office hours, computational setup |  |  |
-| May  1 |  T | 3-period-lived OG model                  |  |  |
-| May  2 |  W | S-period-lived OG model                  |  |  |
-| May  3 | Th | Endogenous labor supply                  |  |  |
-| May  4 |  F | Heterogeneous ability, wealth inequality |  |  |
-| May  7 |  M | Demographic dynamics                     |  |  |
-| May  8 |  T | Productivity growth and stationarization |  |  |
-| May  9 | Th | Household and corporate taxation         |  |  |
-| May 10 |  W | Small Open Economy                       |  |  |
-| May 11 |  F | Unbalanced government budget constraint  |  |  |
+| Apr 30 |  M | Intro session, office hours, computational setup | Slides |  |
+| May  1 |  T | 3-period-lived OG model                  | Ch.  2 |  |
+| May  2 |  W | S-period-lived OG model                  | Ch.  3 |  |
+| May  3 | Th | Endogenous labor supply                  | Ch.  4 |  |
+| May  4 |  F | Heterogeneous ability, wealth inequality | Ch.  5 |  |
+| May  7 |  M | Demographic dynamics                     | Ch.  7 |  |
+| May  8 |  T | Productivity growth and stationarization | Ch.  7 |  |
+| May  9 | Th | Household and corporate taxation         | Ch. 11 |  |
+| May 10 |  W | Unbalanced government budget constraint  | Ch. 12 |  |
+| May 11 |  F | Small Open Economy                       | Ch. 17 |  |
 
 
 # Pre-course Tutorial Areas
@@ -194,6 +194,7 @@ A more comprehensive Git resource is [*Pro Git*](https://git-scm.com/book/en/v2)
 
 * Beazley, David M., *Python Essential Reference*, 4th edition, Addison-Wesley (2009).
 * Chacon, Scott and Ben Straub, [*Pro Git: Everything You Need To Know About Git*](https://git-scm.com/book/en/v2), 2nd edition, Apress (2014).
+* DeBacker, Jason and Richard W. Evans, *Overlapping Generations Models for Policy Analysis: Theory and Computation*, unpublished (2018)
 * Langtangen, Hans Petter, *Python Scripting for Computational Science*, Texts in Computational Science and Engineering, 3rd edition, Springer (2010).
 * Lutz, Mark, *Learning Python*, 5th edition, O'Reilly Media, Inc. (2013).
 * McKinney, Wes, *Python for Data Analysis*, 2nd edition, O'Reilly Media, Inc. (2018).
