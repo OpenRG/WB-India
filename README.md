@@ -61,7 +61,7 @@ Atom and Vim are completely free. A trial version of Sublime Text 3 is available
 
 [Atom](https://atom.io) is an open source text editor developed by people at GitHub.com. This editor has all the features of Sublime Text 3, but it also allows users full customizability. Further, it has been a while now that the users of Atom have surpassed the critical mass necessary to keep the editor progressing with the most cutting edge additions.
 
-There are several packages you'll want to install with Atom.  Once Atom is installed, you can add packages by navigating Atom->Preferences->Install and then typing in the name of the package you would like to install.
+There are several packages you'll want to install with Atom.  Once Atom is installed, you can add packages by navigating File->Settings->Install (on Windows) or Atom->Preferences->Install (on Mac) and then typing in the name of the package you would like to install.  Windows users might also find [this](https://www.youtube.com/watch?v=nshxC0YO_X0) YouTube video or [this blog post](https://zenagiwa.wordpress.com/2015/02/15/installing-packages-for-atom-on-windows/) helpful in installing packages.
 
 For work with Python, we recommend the following packages be installed:
 
