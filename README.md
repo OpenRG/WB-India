@@ -141,6 +141,8 @@ In addition, a number of excellent textbooks and reference manuals are very help
 
 ## 5. Git and GitHub tutorial
 
+Git is a powerful version control software. Each participant should [install Git software](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on their computer. Each participant should also create their own personal account on [GitHub.com](https://github.com/) (select the "Sign Up" or "Sign Up for GitHub" option). The combination of Git software and the GitHub online platform represent an extremely powerful collaboration platform for computational model building.
+
 We have included a tutorial on using [Git and GitHub.com](https://github.com/OpenRG/WB-India/blob/master/Tutorials/git_tutorial.pdf) in the [Tutorials](https://github.com/OpenRG/WB-India/tree/master/Tutorials) directory of this repository. Git is a powerful version control software that comes natively installed on many machines and is widely used. GitHub.com is the most widely used online platform for hosting open source projects and integrating with Git software. Git has a significant learning curve, but it is essential for large collaborations that involve software development.
 
 A more comprehensive Git resource is [*Pro Git*](https://git-scm.com/book/en/v2), by Chacon and Straub (2014). This book is open access, and is available online at [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2). But Evans likes having it in his library in hard copy. This book is the difinitive guide with everything Git, and it has as its primary application the interaction between Git and GitHub. However, the workflow described in the tutorial above was hard to find in this Git book.
