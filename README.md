@@ -17,16 +17,16 @@ This will be an intensive two weeks. We are providing your researchers 6 areas o
 
 |  Date  | Day | Topic | Notes | Code |
 |--------|-----|-------|----------|----------|
-| Apr 30 |  M | Intro session, office hours, computational setup | Slides |  |
-| May  1 |  T | 3-period-lived OG model                  | Ch.  2 |  |
-| May  2 |  W | S-period-lived OG model                  | Ch.  3 |  |
+| Apr 30 |  M | Intro session, office hours, computational setup | [Slides](https://github.com/OpenRG/WB-India/blob/master/Slides/Day1slides.pdf) |  |
+| May  1 |  T | 3-period-lived OG model                  | [Ch.  2](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch02.pdf) |  |
+| May  2 |  W | S-period-lived OG model                  | [Ch.  3](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch03.pdf) |  |
 | May  3 | Th | Endogenous labor supply                  | Ch.  4 |  |
 | May  4 |  F | Heterogeneous ability, wealth inequality | Ch.  5 |  |
 | May  7 |  M | Demographic dynamics                     | Ch.  7 |  |
 | May  8 |  T | Productivity growth and stationarization | Ch.  7 |  |
 | May  9 | W | Household and corporate taxation         | Ch. 11 |  |
 | May 10 |  Th | Unbalanced government budget constraint  | Ch. 12 |  |
-| May 11 |  F | Small Open Economy                       | Ch. 17 |  |
+| May 11 |  F | Large-scale model training and practice | Ch. 17 |  |
 
 
 # Pre-course Tutorial Areas
