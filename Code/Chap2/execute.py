@@ -94,19 +94,6 @@ bvec_guess3 = (2,) vector, guess for steady-state bvec (b1, b2)
 ------------------------------------------------------------------------
 '''
 f_params = (nvec, A, alpha, delta)
-
-# bvec_guess1 = np.array([1.0, 1.2])
-# b_cnstr, c_cnstr, K_cnstr = ss.feasible(f_params, bvec_guess1)
-# print('bvec_guess1', bvec_guess1)
-# print('c_cnstr', c_cnstr)
-# print('K_cnstr', K_cnstr)
-
-# bvec_guess2 = np.array([0.06, -0.001])
-# b_cnstr, c_cnstr, K_cnstr = ss.feasible(f_params, bvec_guess2)
-# print('bvec_guess2', bvec_guess2)
-# print('c_cnstr', c_cnstr)
-# print('K_cnstr', K_cnstr)
-
 bvec_guess3 = np.array([0.1, 0.1])
 b_cnstr, c_cnstr, K_cnstr = ss.feasible(f_params, bvec_guess3)
 print('bvec_guess3', bvec_guess3)
@@ -139,29 +126,6 @@ if not K_cnstr and not c_cnstr.max():
     ss_params = (beta, sigma, nvec, L, A, alpha, delta, SS_tol,
                  EulDiff)
     ss_output = ss.get_SS(ss_params, bvec_guess, SS_graphs)
-
-    # beta2 = 0.55
-    # ss_params2 = (beta2, sigma, nvec, L, A, alpha, delta, SS_tol,
-    #               EulDiff)
-    # ss_output2 = c5ssf.get_SS(ss_params2, bvec_guess, False)
-    # print('c2_ss = ', ss_output2['c_ss'], ', diff is ',
-    #       ss_output2['c_ss'] - ss_output['c_ss'])
-    # print('b2_ss = ', ss_output2['b_ss'], ', diff is ',
-    #       ss_output2['b_ss'] - ss_output['b_ss'])
-    # print('w2_ss = ', ss_output2['w_ss'], ', diff is ',
-    #       ss_output2['w_ss'] - ss_output['w_ss'])
-    # print('r2_ss = ', ss_output2['r_ss'], ', diff is ',
-    #       ss_output2['r_ss'] - ss_output['r_ss'])
-    # print('K2_ss = ', ss_output2['K_ss'], ', diff is ',
-    #       ss_output2['K_ss'] - ss_output['K_ss'])
-    # print('Y2_ss = ', ss_output2['Y_ss'], ', diff is ',
-    #       ss_output2['Y_ss'] - ss_output['Y_ss'])
-    # print('C2_ss = ', ss_output2['C_ss'], ', diff is ',
-    #       ss_output2['C_ss'] - ss_output['C_ss'])
-    # print('EulErr2_ss = ', ss_output2['EulErr_ss'], ', diff is ',
-    #       ss_output2['EulErr_ss'] - ss_output['EulErr_ss'])
-    # print('RCerr2_ss = ', ss_output2['RCerr_ss'], ', diff is ',
-    #       ss_output2['RCerr_ss'] - ss_output['RCerr_ss'])
 else:
     print("Initial guess for SS bvec does not satisfy K>0 or c_s>0.")
 
