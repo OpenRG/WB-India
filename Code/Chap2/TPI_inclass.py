@@ -135,7 +135,7 @@ while (dist > tpi_tol) & (tpi_iter < tpi_max_iter):
     rpath = get_r_path(L, Kpath, A, alpha, delta)
     rpath = np.append(rpath, r_ss)
     wpath = get_w_path(L, Kpath, A, alpha)
-    wpath = np.append(wpath, w_ss)nb
+    wpath = np.append(wpath, w_ss)
     b32_guess = bvec1[1]
     b32_args = (rpath[0], rpath[1], wpath[0], wpath[1], nvec, bvec1[0],
                 beta, sigma)
