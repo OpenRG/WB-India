@@ -163,5 +163,5 @@ while (dist > tpi_tol) & (tpi_iter < tpi_max_iter):
 print('Kpath = ', Kpath)
 import matplotlib.pyplot as plt
 
-plt.plot(Kpath)
+plt.plot(rpath)
 plt.show()
