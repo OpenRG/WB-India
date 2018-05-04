@@ -143,7 +143,7 @@ while (dist > tpi_tol) & (tpi_iter < tpi_max_iter):
     bmat[0, :] = bvec1
     for p in range(1, S - 1):
         bguess = np.diag(bmat[:p, -p:])
-        b_args = (rpath[:p + 1], wpath[:p + 1], nvec[-p - 1:], bvec1[-p],
+        b_args = (rpath[:p + 1], wpath[:p + 1], nvec[-p - 1:], bvec1[-p - 1],
                   beta, sigma)
         results = opt.root(euler_sys_tpi, bguess, args=(b_args))
         bvec = results.x
