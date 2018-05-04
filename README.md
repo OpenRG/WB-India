@@ -20,13 +20,13 @@ This will be an intensive two weeks. We are providing your researchers 6 areas o
 | Apr 30 |  M | Intro session, office hours, computational setup | [Slides](https://github.com/OpenRG/WB-India/blob/master/Slides/Day1slides.pdf) |  |
 | May  1 |  T | 3-period-lived OG model                  | [Ch.  2](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch02.pdf) |  |
 | May  2 |  W | S-period-lived OG model                  | [Ch.  3](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch03.pdf) |  |
-| May  3 | Th | Endogenous labor supply                  | Ch.  4 |  |
-| May  4 |  F | Heterogeneous ability, wealth inequality | Ch.  5 |  |
-| May  7 |  M | Demographic dynamics                     | Ch.  7 |  |
-| May  8 |  T | Productivity growth and stationarization | Ch.  7 |  |
-| May  9 | W | Household and corporate taxation         | Ch. 11 |  |
-| May 10 |  Th | Unbalanced government budget constraint  | Ch. 12 |  |
-| May 11 |  F | Large-scale model training and practice | Ch. 17 |  |
+| May  3 | Th | Endogenous labor supply                  | [Ch.  4](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch04.pdf) |  |
+| May  4 |  F | Heterogeneous ability, wealth inequality | [Ch.  5](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch05.pdf) |  |
+| May  7 |  M | Demographic dynamics                     | [Ch.  7](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch07.pdf) |  |
+| May  8 |  T | Productivity growth and stationarization | [Ch.  7](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch07.pdf) |  |
+| May  9 | W | Household and corporate taxation         | [Ch. 11](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch11.pdf) |  |
+| May 10 |  Th | Unbalanced government budget constraint  | [Ch. 12](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch12.pdf) |  |
+| May 11 |  F | Large-scale model training and practice |  |  | |
 
 
 # Pre-course Tutorial Areas
@@ -66,11 +66,13 @@ There are several packages you'll want to install with Atom.  Once Atom is insta
 For work with Python, we recommend the following packages be installed:
 
 * MagicPython
+* linter
+* linter-flake8 (need to install `flake8` in python)
 * python-indent
+* autocomplete-python
 * tabs-to-spaces
 * minimap
 * open-recent
-* linter-python-pep8
 
 For development with GitHub we recommend:
 
