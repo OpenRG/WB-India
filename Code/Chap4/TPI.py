@@ -215,7 +215,7 @@ def inner_loop(rpath, wpath, args):
             n_errors = hh.get_n_errors(nvec, *n_args)
             n_err_path[S - p:, :p] = (DiagMaskn * n_errors +
                                       n_err_path[S - p:, :p])
-            b_errors = hh.get_b_errors(cvec, rpath[1:p], b_err_args)
+            b_errors = hh.get_b_errors(cvec, rpath[1:p], *b_err_args)
             b_err_path[S - p + 1:, 1:p] = (DiagMaskb * b_errors +
                                            b_err_path[S - p + 1:, 1:p])
 
@@ -250,7 +250,7 @@ def inner_loop(rpath, wpath, args):
         n_errors = hh.get_n_errors(nvec, *n_args)
         n_err_path[:, t:t + S] = (DiagMaskn * n_errors +
                                   n_err_path[:, t:t + S])
-        b_errors = hh.get_b_errors(cvec, rpath[t + 1:t + S], b_err_args)
+        b_errors = hh.get_b_errors(cvec, rpath[t + 1:t + S], *b_err_args)
         b_err_path[1:, t + 1:t + S] = (DiagMaskb * b_errors +
                                        b_err_path[1:, t + 1:t + S])
 
