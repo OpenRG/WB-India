@@ -17,7 +17,7 @@ This will be an intensive two weeks. We are providing your researchers 6 areas o
 
 |  Date  | Day | Topic | Notes | Code |
 |--------|-----|-------|----------|----------|
-| Apr 30 |  M | Intro session, office hours, computational setup | [Slides](https://github.com/OpenRG/WB-India/blob/master/Slides/Day1slides.pdf) |  |
+| Apr 30 |  M | Intro session, office hours, computational setup | [Slides](https://github.com/OpenRG/WB-India/blob/master/Slides/Day1Slides.pdf) |  |
 | May  1 |  T | 3-period-lived OG model                  | [Ch.  2](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch02.pdf) |  |
 | May  2 |  W | S-period-lived OG model                  | [Ch.  3](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch03.pdf) |  |
 | May  3 | Th | Endogenous labor supply                  | [Ch.  4](https://github.com/OpenRG/WB-India/blob/master/Chapters/OGtext_ch04.pdf) |  |
